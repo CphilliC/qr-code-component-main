@@ -1,6 +1,6 @@
 * {
-   box-sizing: border-box;
-   font-family: 'Outfit';
+    box-sizing: border-box;
+    font-family: 'Outfit';
 }
 
 body {
@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     justify-content: center;
     font-size: 15px;
+
 }
 
 img {
@@ -21,6 +22,8 @@ img {
 
 main {
     margin: 25px;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 section {
@@ -30,27 +33,24 @@ section {
     border-radius: 20px;
     text-align: center;
     padding: 5%;
+
 }
 
 h2 {
     margin: 23px 0 18px;
     font-size: 1.5rem;
     letter-spacing: -0.3px;
-    
+    color: hsl(218, 44%, 22%);
 }
 
 p {
     padding: 0px 15px 17px;
-    color: rgb(130, 129, 129);
+    color: hsl(220, 15%, 55%);
     font-size: 15px;
 }
 
 
 footer {
-    /* display: flex; */
-    /* justify-content: center; */
     position: fixed;
     bottom: 4px;
-    left: 42;
-    left: 41.7px;
 }
